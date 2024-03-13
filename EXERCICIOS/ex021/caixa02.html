@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgb(52, 60, 68);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header{
+            background-color: white;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+        }
+        header h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 39px;
+        }
+        
+        header a{
+            font-size: 19px;
+            margin: 30px;
+            text-decoration: none;
+            transition: 0.3s;
+            color: black;
+            font-weight: bold;
+        }
+
+        nav{
+            background-color: #5c5c5c;
+            padding: 3px;
+        }
+
+        header a:hover{
+            color: black;
+            font-size: 20px;
+            text-decoration: underline;
+        }
+
+        /*Main*/
+        
+        Main #noticias, #games{
+            background-color: white;
+            text-align: center;
+            padding: 1px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 10px;
+        }
+    </style>
+    <title>Grouping tags</title>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        
+        <nav id="menu">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Noticias Do brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum illum iure eligendi rem nam alias reiciendis, asperiores tempore voluptatibus esse libero sit a labore amet ullam? Deleniti dolores cupiditate harum.</p>
+                <aside>
+                    Feito por pedro zuza
+                </aside>
+            </article>
+        </section><!--noticias-->
+
+        <section id="games">
+            <h2>Melhores Jogos Mobile</h2>
+            <p>subway surf, fortnite, minecraft,call of duty, entre outros..</p>
+
+            Baixe Os Jogos Clicando <a href="#"><strong>Aqui</strong></a>
+        </section>
+    </main>
+
+    <footer>
+        <h3>all rights reserved &#169</h3>
+
+        <p>Criado Por Pedro Zuza</p>
+    </footer>
+</body>
+</html>

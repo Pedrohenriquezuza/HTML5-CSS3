@@ -1,0 +1,38 @@
+body{
+    background-color: #1D1D1D;
+    color: white;
+    font-family: poppinsregular;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: poppinsbold;
+}
+
+.link-ytb{
+    color: white;
+    text-decoration: none;
+    font-family: poppinslight;
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.link-ytb:hover{
+    color: rgb(18, 18, 179);
+    transition: 0.322s all;
+    transform: scale(1.05);
+}
+
+.imgs-thumb{
+    width: 300px;
+}
+.imgs-thumb:hover{
+    width: 300px;
+    transition: 0.5s;
+    transform: scale(1.5);
+}
