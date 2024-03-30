@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Diferentes</title>
+</head>
+<body>
+    <h1>Exemplo De Formulário</h1>
+
+    <form action="https://www.google.com" method="post" autocomplete="on">
+
+        <p>
+            <label for="iest">Estado:</label>
+            <select name="estado" id="iest">
+
+                <option value="" selected>--- escolha ---</option>
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio De Janeiro</option>
+                    <option value="SP" selected>São Paulo</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernanbuco</option>
+                    <option value="RN">Rio Grande Do Norte</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lst-prof">
+            <datalist id="lst-prof">
+                <option value="ADM">Administrador</option>
+                <option value="CONT">Contabilista</option>
+                <option value="Prof">Professor</option>
+            </datalist>
+        </p> 
+
+
+        <p>
+            <label for="imsg">Mensagem: </label><br>
+            <textarea name="mgs" id="imsg" cols="10" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetar">
+        </p>
+    </form>
+</body>
+</html>
